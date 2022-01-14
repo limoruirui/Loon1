@@ -2,7 +2,7 @@ function Env(t,e){class s{constructor(t){this.env=t}send(t,e="GET"){t="string"==
 const $ = new Env('阅读body获取')
 
 
-if ($request && $request.method != `OPTIONS`&& $request.url.match(/\/article\/info/)) {
+if ($request && $request.method != `OPTIONS`&& $request.url.match(/\/Nameless\/adlickstart/)) {
     const articlebodyVal = $request.body
 let YouthBody=[];
      if (articlebodyVal) {       
